@@ -1,0 +1,21 @@
+﻿<Window x:Class="Адовые_интерфейсы__17__Практическая_намбер_севентин_.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Адовые_интерфейсы__17__Практическая_намбер_севентин_"
+        mc:Ignorable="d"
+        Title="Суперкалькулятор3000" Height="450" Width="800">
+    <Grid>
+        <Label Content="Значение №1" HorizontalAlignment="Left" Margin="60,25,0,0" VerticalAlignment="Top" Width="110"> </Label>
+        <Label Content="Значение №2" HorizontalAlignment="Left" Margin="60, 110, 0,0" VerticalAlignment="Top" Width="110"></Label>
+        <Label Content="Результат" HorizontalAlignment="Center" Margin="235,110,447,0" VerticalAlignment="Top" Width="110"></Label>
+        <TextBox x:Name="zn1" HorizontalAlignment="Left" Margin="60,56,0,337" Width="83" TextWrapping="Wrap"></TextBox>
+        <TextBox x:Name="zn2" HorizontalAlignment="Left" Margin="60,141,0,252" Width="83" TextWrapping="Wrap"></TextBox>
+        <TextBox x:Name="rez" HorizontalAlignment="Left" Margin="235,141,0,252" Width="83" IsReadOnly="True" TextWrapping="Wrap"></TextBox>
+        <Button Content="Расчёт" HorizontalAlignment="Left" Margin="235,56,0,337" Width="83" IsDefault="True" Click="Button_Click_1"></Button>
+        <Button Content="Выход" HorizontalAlignment="Left" Margin="386,141,0,252" Width="80" IsCancel="True" Click="Button_Click_2"></Button>
+        <Button Content="Сброс" HorizontalAlignment="Left" Margin="386,56,0,337" Width="80" Click="Button_Click"></Button>
+        
+    </Grid>
+</Window>
